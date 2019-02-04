@@ -1,0 +1,16 @@
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.explainer {
+    text-align: center;
+}
+
+.explainer > p {
+    font-size: 1.2em;
+}
+
+.explainer > h3 {
+    font-size: 2em;
+}
