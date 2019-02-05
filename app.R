@@ -1,16 +1,15 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
+# Install packages if necessary
+packs <- c("shiny", "dplyr", "tidyr", "maps", "scales", "ggplot2")
+packs_toinstall <- packs[!(packs %in% installed.packages())]
+if(length(packs_toinstall) > 0){
+    install.packages(packs_toinstall)
+}
+
 
 library(shiny)
 source("visualize.R")
 
-# Define UI for application that draws a histogram
+# Define UI for WebGuard
 ui <- fixedPage(
     # CSS
     tags$head(
@@ -46,7 +45,7 @@ ui <- fixedPage(
 
 )
 
-# Define server logic required to draw a histogram
+# Define server logic to render the table and plot
 server <- function(input, output) {
 
     output$showPlot1<- renderPlot({
