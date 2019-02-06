@@ -11,6 +11,8 @@ An out-of-the-box Shiny app template that we'll use to walk through the hypothet
 - [Bootstrap 4](https://getbootstrap.com/)
 - HTML and CSS  
 
+This serves as some boilerplate code we will use for the code-along session. It's a starting point that you can take and flesh it out into a minimal [Intrusion Detection System](https://en.wikipedia.org/wiki/Intrusion_detection_system). Throughout the session we'll be adding some extra web framework components, visualization components and walk through the best practice of integration HTML, CSS, and JavaScript into a Shiny project (for R developers) or Flask project (Python developers). 
+
 ## Installation and Usage
 
 #### Method 1: Fork to your own repo (Recommended)
