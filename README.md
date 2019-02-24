@@ -26,9 +26,12 @@ This serves as some boilerplate code we will use for the code-along session. It'
 
 The dependencies are automatically installed if R doesn't detect them. After installation, it is recommended that you stay connected to the internet while running `app.R` for the first time. R packages are installed on your computer so you will not need to have an active internet connection after this. 
 
-## Workshop
+## Workshop Notes
 The code and its asset can be used to follow along the code-along session of Algoritma's Kickstart Series: Gentle introduction to Developing Web Apps in R & Python.
 
+1. The `supreme` folder contains the Flask template that we created together in the final 30 mins of the class. Make sure you've installed Flask in the virtual environment (`conda env` or `pip env`) as per the in-classroom instructions
+2. `plan_bandung.md` is the lecture plan and notes used for the Bandung session on 16/2/19 
+3. `plan_jakarta.md` is the lecture plan and notes used for the Jakarta session on 23/2/19
 
 #### Bandung Session
 - Date: Saturday, **February 16th** 2019  
